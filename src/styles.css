@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #1E1E1E;
+    /*original #4723D9*/
+    --first-color-light: #B6A688;
+    /*original #AFA5D9*/
+    --white-color: #F4B942;
+    /*original #F7F6FB*/
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #F7F6FB;
+    /*original : #F7F6FB */
+    color: none;
+    /*original color: #e3e3e3 */
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 2rem;
+    /*originalpadding: 0 1rem*/
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    transition: .5s
+}
+
+a {
+    text-decoration: none
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
