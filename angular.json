@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "zeus:build:production"
+              "buildTarget": "zeus:build:production"
             },
             "development": {
-              "browserTarget": "zeus:build:development"
+              "buildTarget": "zeus:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "zeus:build"
+            "buildTarget": "zeus:build"
           }
         },
         "test": {
