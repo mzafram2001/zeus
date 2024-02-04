@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,14 +7,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  isSidebarOpen: boolean = false;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.setActiveClassBasedOnRoute();
+      }
+    });
   }
 
-  toggleSidebar() {
-    this.isSidebarOpen = !this.isSidebarOpen;
+  setActiveClassBasedOnRoute() {
+    const activeRoute = this.router.url;
+    const links = document.querySelectorAll('.nav_link');
+
+    links.forEach((link) => {
+      link.classList.remove('active');
+      const href = link.getAttribute('routerLink') || link.getAttribute('href');
+      if (activeRoute === href) {
+        link.classList.add('active');
+      }
+    });
   }
 }

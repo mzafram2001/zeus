@@ -25,7 +25,6 @@ body {
     /*original color: #e3e3e3 */
     position: relative;
     margin: var(--header-height) 0 0 0;
-    padding: 0 2rem;
     /*originalpadding: 0 1rem*/
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -57,4 +56,20 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+.snippet-body {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem 
+}
+
+@media screen and (max-width: 768px) {
+    .snippet-body {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
 }
