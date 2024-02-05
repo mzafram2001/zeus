@@ -7,8 +7,7 @@ import { UsersComponent } from './users/users.component';
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'users', component: UsersComponent },
-  // Agrega rutas para otros componentes según sea necesario
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }, // Redirige al dashboard por defecto
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 ];
 
 @NgModule({
