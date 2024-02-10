@@ -1,7 +1,17 @@
 .l-navbar {
+    width: 60px;
+    /* Ancho inicial del sidebar cuando está contraído */
+    transition: width 0.3s ease;
+}
+
+.l-navbar.expanded {
+    width: 200px;
+}
+
+.l-navbar {
     position: fixed;
     top: 0;
-    left: -30%;
+    /*left: -30%;*/
     width: var(--nav-width);
     height: 100vh;
     background-color: var(--first-color);

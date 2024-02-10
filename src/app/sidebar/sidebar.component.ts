@@ -7,6 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
+  isExpanded: boolean = false;
 
   constructor(private router: Router) { }
 
@@ -29,5 +30,9 @@ export class SidebarComponent implements OnInit {
         link.classList.add('active');
       }
     });
+  }
+
+  toggleSidebar() {
+    this.isExpanded = !this.isExpanded;
   }
 }
