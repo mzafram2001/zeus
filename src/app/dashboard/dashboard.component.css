@@ -1,0 +1,13 @@
+.btn-zeus {
+    background-color: #F4B942;
+    color: #1E1E1E;
+}
+
+.btn-zeus:hover {
+    background-color: #e0a93b;
+    color: #1E1E1E;
+}
+
+.chart-container {
+    padding: 1rem;
+}
