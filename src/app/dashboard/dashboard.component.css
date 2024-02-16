@@ -1,4 +1,4 @@
-.btn-zeus {
+.btn-zeus, .bg-zeus {
     background-color: #F4B942;
     color: #1E1E1E;
 }
@@ -8,6 +8,22 @@
     color: #1E1E1E;
 }
 
+.fa-bolt {
+    color: #F4B942;
+}
+
 .chart-container {
     padding: 1rem;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.fa-arrow-up {
+    color: #34A853;
+}
+
+.fa-arrow-down {
+    color: #EA4335;
 }
