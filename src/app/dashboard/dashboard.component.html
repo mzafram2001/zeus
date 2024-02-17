@@ -22,7 +22,7 @@
                         <i class="fa-solid fa-bolt"></i> Comparison between sales and purchases
                     </div>
                     <div class="chart-container">
-                        <canvas id="stats" width="500" height="350">{{ chartStats }}</canvas>
+                        <canvas id="sales" width="500" height="350">{{ chartSales }}</canvas>
                     </div>
                 </div>
             </div>
@@ -31,15 +31,15 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        <i class="fa-solid fa-bolt"></i> Invoiced in the last month
+                        <i class="fas fa-bolt"></i> Invoiced in the last month
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">
-                            <strong><i class="fa-solid fa-arrow-up"></i> 12.300 $</strong>
-                            <span class="caption text-right"> 82% out of 100%. Target: 15.000 $. </span>
+                            <strong><i class="fas fa-arrow-up"></i> 12,300 <i
+                                    class="fa-solid fa-dollar-sign"></i></strong>
+                            <span class="caption text-right"> 82% out of 100%.</span>
                         </h3>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="82"
-                            aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress">
                             <div class="progress-bar bg-zeus" style="width: 82%"></div>
                         </div>
                     </div>
@@ -48,15 +48,14 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        <i class="fa-solid fa-bolt"></i> Resolved tickets in the last month
+                        <i class="fas fa-bolt"></i> Resolved tickets in the last month
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">
-                            <strong><i class="fa-solid fa-arrow-up"></i> 236 <i class="fa-solid fa-ticket"></i></strong>
-                            <span class="caption text-right"> 97% out of 100%. Target: 100%. </span>
+                            <strong><i class="fas fa-arrow-up"></i> 236 <i class="fas fa-ticket"></i></strong>
+                            <span class="caption text-right"> 97% out of 100%.</span>
                         </h3>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="97"
-                            aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress">
                             <div class="progress-bar bg-zeus" style="width: 97%"></div>
                         </div>
                     </div>
@@ -65,15 +64,14 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        <i class="fa-solid fa-bolt"></i> Quantity of orders in the last month
+                        <i class="fas fa-bolt"></i> Quantity of orders in the last month
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">
-                            <strong><i class="fa-solid fa-arrow-down"></i> 1892 <i class="fa-solid fa-box"></i></strong>
-                            <span class="caption text-right"> 63% out of 100%. Target: 3000 orders. </span>
+                            <strong><i class="fas fa-arrow-down"></i> 1892 <i class="fas fa-box"></i></strong>
+                            <span class="caption text-right"> 63% out of 100%.</span>
                         </h3>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="63"
-                            aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress">
                             <div class="progress-bar bg-zeus" style="width: 63%"></div>
                         </div>
                     </div>
@@ -81,19 +79,74 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 mb-4">
+            <div class="col-md-8 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        Featured
+                        <i class="fa-solid fa-bolt"></i> Most sales per country
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">Some text.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Position</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Invoices <i class="fa-solid fa-dollar-sign"></i></th>
+                                        <th scope="col">Tickets <i class="fa-solid fa-ticket"></i></th>
+                                        <th scope="col">Orders <i class="fa-solid fa-box"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><i class="fa-solid fa-arrow-up"></i> 1</th>
+                                        <td><img src="https://flagicons.lipis.dev/flags/4x3/es.svg" width="30"> Spain
+                                        </td>
+                                        <td>7.843 $</td>
+                                        <td>146</td>
+                                        <td>1187</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fa-solid fa-arrow-up"></i> 2</th>
+                                        <td><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" width="30"> France
+                                        </td>
+                                        <td>3.143 $</td>
+                                        <td>64</td>
+                                        <td>431</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fa-solid fa-arrow-down"></i> 3</th>
+                                        <td><img src="https://flagicons.lipis.dev/flags/4x3/de.svg" width="30"> Germany
+                                        </td>
+                                        <td>1.314 $</td>
+                                        <td>26</td>
+                                        <td>274</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fa-solid fa-arrow-up"></i> 4</th>
+                                        <td><img src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg" width="30">
+                                            England</td>
+                                        <td>1027 $</td>
+                                        <td>15</td>
+                                        <td>217</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fa-solid fa-arrow-down"></i> 5</th>
+                                        <td><img src="https://flagicons.lipis.dev/flags/4x3/it.svg" width="30"> Italy
+                                        </td>
+                                        <td>785 $</td>
+                                        <td>12</td>
+                                        <td>178</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a (click)="onStatsButtonClick()" routerLink="/stats" class="btn btn-zeus stats nav_link">
+                            <i class="fa-solid fa-chart-line"></i> Stats
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header">
                         Featured
@@ -110,12 +163,10 @@
             <div class="col-md-6 mb-4">
                 <div class="card">
                     <div class="card-header">
-                        Featured
+                        <i class="fa-solid fa-bolt"></i> Age stats
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">Some text.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="chart-container">
+                        <canvas id="stats" width="500" height="350">{{ chartStats }}</canvas>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,10 @@
-.btn-zeus, .bg-zeus {
+.card-header {
+    background-color: #1E1E1E;
+    color: #B6A688;
+}
+
+.btn-zeus,
+.bg-zeus {
     background-color: #F4B942;
     color: #1E1E1E;
 }
@@ -8,7 +14,10 @@
     color: #1E1E1E;
 }
 
-.fa-bolt {
+.fa-bolt,
+.fa-ticket,
+.fa-box,
+.fa-dollar-sign {
     color: #F4B942;
 }
 
@@ -26,4 +35,10 @@
 
 .fa-arrow-down {
     color: #EA4335;
+}
+
+@media screen and (max-width: 530px) {
+    .stats {
+        margin-top: 1rem;
+    }
 }
