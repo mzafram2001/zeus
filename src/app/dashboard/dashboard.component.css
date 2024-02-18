@@ -17,7 +17,8 @@
 .fa-bolt,
 .fa-ticket,
 .fa-box,
-.fa-dollar-sign {
+.fa-dollar-sign,
+.fa-bell {
     color: #F4B942;
 }
 
@@ -35,6 +36,10 @@
 
 .fa-arrow-down {
     color: #EA4335;
+}
+
+.announcement-image {
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 530px) {
