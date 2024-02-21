@@ -31,11 +31,11 @@
 }
 
 .fa-arrow-up {
-    color: #34A853;
+    color: #198754; /*#34A853*/
 }
 
 .fa-arrow-down {
-    color: #EA4335;
+    color: #DC3545; /*#EA4335*/
 }
 
 .announcement-image {
