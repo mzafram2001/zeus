@@ -63,7 +63,7 @@ export class DashboardComponent implements OnInit {
         scales: {
           y: {
             suggestedMin: 10,
-            suggestedMax: 50
+            suggestedMax: 5
           }
         },
         plugins: {
