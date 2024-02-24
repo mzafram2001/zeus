@@ -42,6 +42,11 @@
     margin-bottom: 1rem;
 }
 
+.bg-zeus {
+    background-color: #F4B942;
+    color: #1E1E1E;
+}
+
 @media screen and (max-width: 530px) {
     .stats {
         margin-top: 1rem;
