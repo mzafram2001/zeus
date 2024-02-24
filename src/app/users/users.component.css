@@ -1,0 +1,44 @@
+.card-header {
+    background-color: #1E1E1E;
+    color: #B6A688;
+}
+
+.btn-zeus,
+.bg-zeus {
+    background-color: #F4B942;
+    color: #1E1E1E;
+}
+
+.btn-zeus:hover {
+    background-color: #e0a93b;
+    color: #1E1E1E;
+}
+
+.btn-outline-zeus {
+    background-color: white;
+    color: #1E1E1E;
+    border-color: #e0a93b;
+}
+
+.btn-outline-zeus:hover {
+    background-color: #F4B942;
+    color: #1E1E1E;
+}
+
+.fa-bolt,
+.fa-ticket,
+.fa-box,
+.fa-dollar-sign,
+.fa-bell {
+    color: #F4B942;
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        text-align: center !important;
+    }
+
+    .specialist {
+        text-align: center !important;
+    }
+}
