@@ -33,6 +33,14 @@
     color: #F4B942;
 }
 
+.id {
+    color: #9a52f2;
+}
+
+.announcement-image {
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .name {
         text-align: center !important;
