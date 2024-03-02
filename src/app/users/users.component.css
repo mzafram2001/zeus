@@ -33,6 +33,14 @@
     color: #F4B942;
 }
 
+.fa-arrow-up {
+    color: #198754; /*#34A853*/
+}
+
+.fa-arrow-down {
+    color: #DC3545; /*#EA4335*/
+}
+
 .id {
     color: #9a52f2;
 }
