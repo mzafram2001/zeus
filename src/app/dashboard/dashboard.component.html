@@ -4,11 +4,11 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="./assets/images/zeus_v0.0.2.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/zeus_v0.0.21.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><i class="fa-solid fa-bolt"></i> Dashboard component <span class="badge bg-danger"
-                                style="margin-right: 5px;">New</span><span class="badge bg-zeus">Major</span></h5>
-                        <p class="card-text">We have completed the dashboard component in its totality.</p>
+                        <h5><i class="fa-solid fa-bolt"></i> Palette component <span class="badge bg-danger"
+                                style="margin-right: 5px;">New</span><span class="badge bg-primary">Minor</span></h5>
+                        <p class="card-text">We have added a component to show the colours of the project.</p>
                         <a (click)="onChangelogButtonClick()" routerLink="/changelog" class="btn btn-zeus nav_link">
                             <i class="fa-solid fa-arrows-rotate nav_icon"></i> Changelog
                         </a>
@@ -156,9 +156,7 @@
                                 </tbody>
                             </table>
                         </div>
-                        <a (click)="onStatsButtonClick()" routerLink="/stats" class="btn btn-zeus stats nav_link">
-                            <i class="fa-solid fa-chart-line"></i> Stats
-                        </a>
+                        <button type="button" class="btn btn-zeus flex-grow-1"><i class="fa-solid fa-chart-line"></i> Stats</button>
                     </div>
                 </div>
             </div>
