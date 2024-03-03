@@ -28,11 +28,11 @@
 <br>
 <table>
   <tr>
-    <th><b>#F4B942</b></a></th>
-    <th><b>#1E1E1E</b></a></th>
-    <th><b>#F7F6FB</b></a></th>
-    <th><b>#212529</b></a></th>
-    <th><b>#B6A688</b></a></th>
+    <th><b>#F4B942</b></th>
+    <th><b>#1E1E1E</b></th>
+    <th><b>#F7F6FB</b></th>
+    <th><b>#212529</b></th>
+    <th><b>#B6A688</b></th>
   </tr>
   <tr>
     <td><img src="https://i.ibb.co/NyPB6mz/yellow.png"></td>
