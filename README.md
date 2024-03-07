@@ -55,8 +55,9 @@
 </div>
 <br>
 
-![Banner](https://i.ibb.co/4RXsgYM/zeus-ex1.png)
-![Banner](https://i.ibb.co/7pkr2nf/zeus-ex2.png)
+![Banner](https://i.ibb.co/xSCpTNv/zeus-ex1.png)
+![Banner](https://i.ibb.co/yWZCm7n/zeus-ex2.png)
+![Banner](https://i.ibb.co/3sw4n8q/zeus-ex3.png)
 
 ## ⚡ Adaptability / Adaptabilidad
 
