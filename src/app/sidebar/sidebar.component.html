@@ -1,40 +1,27 @@
-<div class="l-navbar" id="nav-bar" [ngClass]="{'expanded': isExpanded}" (mouseenter)="toggleSidebar()" (mouseleave)="toggleSidebar()">
+<div class="l-navbar" id="nav-bar" [ngClass]="{'expanded': isExpanded}" (mouseenter)="toggleSidebar()"
+    (mouseleave)="toggleSidebar()">
     <nav class="nav">
-        <div>
-            <a routerLink="/" class="nav_logo">
-                <img src="./assets/images/zeus_theme.png" width="20px" height="20px">
-                <span class="nav_logo-name">Zeus</span>
+        <a routerLink="/" class="nav_logo">
+            <img src="./assets/images/zeus_theme.png" alt="Zeus Logo" width="20px" height="20px">
+            <span class="nav_logo-name">Zeus</span>
+        </a>
+        <div class="nav_list">
+            <a routerLink="/dashboard" class="nav_link" routerLinkActive="active">
+                <i class="fa-solid fa-table-columns nav_icon"></i>
+                <span class="nav_name">Dashboard</span>
             </a>
-            <div class="nav_list">
-                <a routerLink="/dashboard" class="nav_link active">
-                    <i class="fa-solid fa-table-columns nav_icon"></i>
-                    <span class="nav_name">Dashboard</span>
-                </a>
-                <a routerLink="/users" class="nav_link">
-                    <i class="fa-solid fa-user nav_icon"></i>
-                    <span class="nav_name">Users</span>
-                </a>
-                <a routerLink="/palette" class="nav_link">
-                    <i class="fa-solid fa-palette nav_icon"></i>
-                    <span class="nav_name">Palette</span>
-                </a>
-                <a routerLink="/changelog" class="nav_link">
-                    <i class="fa-solid fa-arrows-rotate nav_icon"></i>
-                    <span class="nav_name">Changelog</span>
-                </a>
-                <!--<a href="#" class="nav_link">
-                    <i class="fa-solid fa-bookmark nav_icon"></i>
-                    <span class="nav_name">#</span>
-                </a>
-                <a href="#" class="nav_link">
-                    <i class="fa-solid fa-folder nav_icon"></i>
-                    <span class="nav_name">#</span>
-                </a>
-                <a href="#" class="nav_link">
-                    <i class="fa-solid fa-chart-simple nav_icon"></i>
-                    <span class="nav_name">#</span>
-                </a>-->
-            </div>
+            <a routerLink="/users" class="nav_link" routerLinkActive="active">
+                <i class="fa-solid fa-user nav_icon"></i>
+                <span class="nav_name">Users</span>
+            </a>
+            <a routerLink="/palette" class="nav_link" routerLinkActive="active">
+                <i class="fa-solid fa-palette nav_icon"></i>
+                <span class="nav_name">Palette</span>
+            </a>
+            <a routerLink="/changelog" class="nav_link" routerLinkActive="active">
+                <i class="fa-solid fa-arrows-rotate nav_icon"></i>
+                <span class="nav_name">Changelog</span>
+            </a>
         </div>
         <a href="#" class="nav_link">
             <i class="fa-solid fa-right-from-bracket nav_icon"></i>

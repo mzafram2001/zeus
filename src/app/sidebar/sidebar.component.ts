@@ -12,6 +12,7 @@ export class SidebarComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.setActiveClassBasedOnRoute();

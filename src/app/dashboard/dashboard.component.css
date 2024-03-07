@@ -31,20 +31,15 @@
 }
 
 .fa-arrow-up {
-    color: #198754; /*#34A853*/
+    color: #198754;
 }
 
 .fa-arrow-down {
-    color: #DC3545; /*#EA4335*/
+    color: #DC3545;
 }
 
 .announcement-image {
     margin-bottom: 1rem;
-}
-
-.bg-zeus {
-    background-color: #F4B942;
-    color: #1E1E1E;
 }
 
 @media screen and (max-width: 530px) {

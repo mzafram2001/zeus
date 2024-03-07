@@ -1,22 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import Chart from 'chart.js/auto';
 
 @Component({
   selector: 'app-users',
-  standalone: true,
-  imports: [],
   templateUrl: './users.component.html',
-  styleUrl: './users.component.css'
+  styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements OnInit {
-  public chartReputation: any;
+  public chartReputation: any = null;
 
   ngOnInit(): void {
     this.createChart();
   }
 
-  public createChart() {
+  createChart(): void {
+    if (this.chartReputation) {
+      this.chartReputation.destroy();
+    }
+
     this.chartReputation = new Chart("reputation", {
       type: 'doughnut',
       data: {
