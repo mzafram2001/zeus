@@ -26,7 +26,7 @@ export class UsersComponent implements OnInit {
           {
             data: [72, 28],
             borderColor: ['#F4B942', '#1E1E1E'],
-            backgroundColor: ['rgba(244, 185, 66, 0.5)', 'rgba(30, 30, 30, 0.5)'],
+            backgroundColor: ['rgba(244, 185, 66, 0.7)', 'rgba(30, 30, 30, 0.7)'],
           }
         ]
       },

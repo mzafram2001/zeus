@@ -25,3 +25,9 @@
     background-color: #1E1E1E;
     color: #B6A688;
 }
+
+@media screen and (max-width: 592px) {
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+}

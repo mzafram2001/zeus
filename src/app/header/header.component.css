@@ -26,10 +26,36 @@
     justify-content: center;
     border-radius: 5px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .header_img img {
     width: 40px;
+}
+
+.fa-bolt,
+.fa-ticket,
+.fa-box,
+.fa-dollar-sign,
+.fa-bell {
+    color: #F4B942;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #1E1E1E;
+    color: #B6A688;
+}
+
+.btn-zeus,
+.bg-zeus {
+    background-color: #F4B942;
+    color: #1E1E1E;
+}
+
+.btn-zeus:hover {
+    background-color: #e0a93b;
+    color: #1E1E1E;
 }
 
 @media screen and (min-width: 768px) {

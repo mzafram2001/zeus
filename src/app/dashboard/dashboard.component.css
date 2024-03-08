@@ -42,8 +42,8 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 530px) {
-    .stats {
-        margin-top: 1rem;
+@media screen and (max-width: 592px) {
+    .table-responsive {
+        margin-bottom: 1rem;
     }
 }
