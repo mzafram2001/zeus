@@ -41,6 +41,16 @@
     <td><img src="https://i.ibb.co/CVCdbgb/blackfont.png"></td>
     <td><img src="https://i.ibb.co/qCsdzsG/gold.png"></td>
   </tr>
+  <tr>
+    <th><b>#198754</b></th>
+    <th><b>#DC3545</b></th>
+    <th><b>#1963d1</b></th>
+  </tr>
+  <tr>
+    <th><img src="https://i.ibb.co/mFkTzk6/green.png"></th>
+    <th><img src="https://i.ibb.co/pdBMMMP/red.png"></th>
+    <th><img src="https://i.ibb.co/DM7cqxs/blue.png"></th>
+  </tr>
 </table>
 
 
