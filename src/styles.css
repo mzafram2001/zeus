@@ -1,9 +1,11 @@
 :root {
-    --header-height: 3rem;
-    --nav-width: 68px;
     --primary-color: #F4B942;
     --secondary-color: #1E1E1E;
     --primary-color-alt: #B6A688;
+    --body-color: #F7F6FB;
+    --scroll-back-color: #f1f1f1;
+    --header-height: 3rem;
+    --nav-width: 68px;
     --normal-font-size: 1rem;
     --z-fixed: 100;
 }
@@ -16,7 +18,7 @@ body {
     position: relative;
     margin: var(--header-height) 0 0 0;
     font-size: var(--normal-font-size);
-    background-color: #F7F6FB;
+    background-color: var(--body-color);
     transition: 0.5s;
 }
 
@@ -26,6 +28,21 @@ a {
 
 .snippet-body {
     padding: 2rem 2rem 2rem 6rem;
+}
+
+.tooltip-zeus.tooltip>.tooltip-inner {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color-alt) !important;
+}
+
+.tooltip-zeus.tooltip>.tooltip-arrow::before {
+    border-left-color: var(--secondary-color) !important;
+}
+
+@media (hover: none) {
+    .tooltip-zeus {
+        display: none;
+    }
 }
 
 ::-webkit-scrollbar {
