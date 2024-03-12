@@ -38,24 +38,24 @@
 .fa-box,
 .fa-dollar-sign,
 .fa-bell {
-    color: #F4B942;
+    color: var(--primary-color);
 }
 
 .modal-header,
 .modal-footer {
-    background-color: #1E1E1E;
-    color: #B6A688;
+    background-color: var(--secondary-color);
+    color: var(--pyrite-color);
 }
 
 .btn-zeus,
 .bg-zeus {
-    background-color: #F4B942;
-    color: #1E1E1E;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .btn-zeus:hover {
-    background-color: #e0a93b;
-    color: #1E1E1E;
+    background-color: var(--primary-color-hover);
+    color: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {

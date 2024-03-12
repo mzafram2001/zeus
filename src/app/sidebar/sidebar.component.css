@@ -1,6 +1,4 @@
 .l-navbar {
-    width: 60px;
-    transition: width 0.3s ease;
     position: fixed;
     top: 0;
     width: var(--nav-width);
@@ -48,7 +46,7 @@
 
 .nav_link {
     position: relative;
-    color: var(--primary-color-alt);
+    color: var(--pyrite-color);
     margin-bottom: 1.5rem;
     transition: .3s;
 }

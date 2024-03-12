@@ -1,28 +1,28 @@
 .card-header {
-    background-color: #1E1E1E;
-    color: #B6A688;
+    background-color: var(--secondary-color);
+    color: var(--pyrite-color);
 }
 
 .btn-zeus,
 .bg-zeus {
-    background-color: #F4B942;
-    color: #1E1E1E;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .btn-zeus:hover {
-    background-color: #e0a93b;
-    color: #1E1E1E;
+    background-color: var(--primary-color-hover);
+    color: var(--secondary-color);
 }
 
 .btn-outline-zeus {
-    background-color: white;
-    color: #1E1E1E;
-    border-color: #e0a93b;
+    background-color: var(--white-color);
+    color: var(--secondary-color);;
+    border-color: var(--primary-color-hover);
 }
 
 .btn-outline-zeus:hover {
-    background-color: #F4B942;
-    color: #1E1E1E;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .fa-bolt,
@@ -30,19 +30,19 @@
 .fa-box,
 .fa-dollar-sign,
 .fa-bell {
-    color: #F4B942;
+    color: var(--primary-color);
 }
 
 .fa-arrow-up {
-    color: #198754;
+    color: var(--emerald-color);
 }
 
 .fa-arrow-down {
-    color: #DC3545;
+    color: var(--ruby-color);
 }
 
 .id {
-    color: #1963d1;
+    color: var(--sapphire-color);
 }
 
 .announcement-image {
@@ -66,7 +66,7 @@
 }
 
 .specialist {
-    color: #2b2a2a;
+    color: var(--secondary-color);
     text-align: left;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .stats {
-    background-color: #efefef;
+    background-color: var(--gray-color);
 }
 
 @media screen and (max-width: 768px) {

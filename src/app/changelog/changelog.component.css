@@ -1,13 +1,13 @@
 .fa-bolt,
 .fa-face-smile {
-    color: #F4B942;
+    color: var(--primary-color);
 }
 
 .fa-calendar {
-    color: #DC3545;
+    color: var(--ruby-color);
 }
 
 .bg-zeus {
-    background-color: #F4B942;
-    color: #1E1E1E;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }

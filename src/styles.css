@@ -1,9 +1,18 @@
 :root {
     --primary-color: #F4B942;
+    --primary-color-hover: #e0a93b;
     --secondary-color: #1E1E1E;
-    --primary-color-alt: #B6A688;
-    --body-color: #F7F6FB;
-    --scroll-back-color: #f1f1f1;
+    --secondary-color-hover: #111111;
+    --font-color: #212529;
+    --background-app-color: #F7F6FB;
+    --pyrite-color: #B6A688;
+    --emerald-color: #198754;
+    --ruby-color: #DC3545;
+    --sapphire-color: #1963d1;
+    --scroll-color: #f1f1f1;
+    --black-color: #000;
+    --white-color: #fff;
+    --gray-color: #efefef;
     --header-height: 3rem;
     --nav-width: 68px;
     --normal-font-size: 1rem;
@@ -18,7 +27,7 @@ body {
     position: relative;
     margin: var(--header-height) 0 0 0;
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
+    background-color: var(--background-app-color);
     transition: 0.5s;
 }
 
@@ -32,7 +41,7 @@ a {
 
 .tooltip-zeus.tooltip>.tooltip-inner {
     background-color: var(--secondary-color) !important;
-    color: var(--primary-color-alt) !important;
+    color: var(--pyrite-color) !important;
 }
 
 .tooltip-zeus.tooltip>.tooltip-arrow::before {
@@ -50,13 +59,13 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background-color: var(--scroll-background-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #212529;
+    background-color: var(--secondary-color);;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #1E1E1E;
+    background-color: var(--secondary-color-hover);
 }
