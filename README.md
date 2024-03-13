@@ -36,24 +36,24 @@
     <th><b>#1E1E1E</b></th>
     <th><b>#F7F6FB</b></th>
     <th><b>#212529</b></th>
-    <th><b>#B6A688</b></th>
   </tr>
   <tr>
     <td><img src="https://i.ibb.co/NyPB6mz/yellow.png"></td>
     <td><img src="https://i.ibb.co/X2JVYVf/blackback.png"></td>
     <td><img src="https://i.ibb.co/kmtqVkM/white.png"></td>
     <td><img src="https://i.ibb.co/CVCdbgb/blackfont.png"></td>
-    <td><img src="https://i.ibb.co/qCsdzsG/gold.png"></td>
   </tr>
   <tr>
+    <th><b>#B6A688</b></th>
     <th><b>#198754</b></th>
     <th><b>#DC3545</b></th>
     <th><b>#1963D1</b></th>
   </tr>
   <tr>
-    <th><img src="https://i.ibb.co/mFkTzk6/green.png"></th>
-    <th><img src="https://i.ibb.co/pdBMMMP/red.png"></th>
-    <th><img src="https://i.ibb.co/DM7cqxs/blue.png"></th>
+    <td><img src="https://i.ibb.co/qCsdzsG/gold.png"></td>
+    <td><img src="https://i.ibb.co/mFkTzk6/green.png"></td>
+    <td><img src="https://i.ibb.co/pdBMMMP/red.png"></td>
+    <td><img src="https://i.ibb.co/DM7cqxs/blue.png"></td>
   </tr>
 </table>
 
