@@ -44,7 +44,7 @@
   <tr>
     <th><b>#198754</b></th>
     <th><b>#DC3545</b></th>
-    <th><b>#1963d1</b></th>
+    <th><b>#1963D1</b></th>
   </tr>
   <tr>
     <th><img src="https://i.ibb.co/mFkTzk6/green.png"></th>
