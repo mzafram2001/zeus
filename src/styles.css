@@ -40,12 +40,12 @@ a {
 }
 
 .tooltip-zeus.tooltip>.tooltip-inner {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--black-color) !important;
     color: var(--pyrite-color) !important;
 }
 
 .tooltip-zeus.tooltip>.tooltip-arrow::before {
-    border-left-color: var(--secondary-color) !important;
+    border-left-color: var(--black-color) !important;
 }
 
 @media (hover: none) {
