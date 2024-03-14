@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <rect x="37.747" y="24.209" width="64.267" height="86.698" style="stroke: rgb(4, 106, 56); fill: rgb(4, 106, 56);"/>
+  <rect x="35.114" y="133.78" width="68.361" height="133.287" style="stroke: rgb(4, 106, 56); fill: rgb(4, 106, 56);"/>
+  <rect x="29914.215" y="1377567.75" width="133.122" height="246.09" style="fill: rgb(218, 41, 28); stroke: rgb(218, 41, 28);" transform="matrix(1, 0, 0, 1, -29780.373046, -1377538.999948)"/>
+  <path d="M 50 300 L 250 300 C 277.615 300 300 277.61 300 250 L 300 50 C 300 22.385 277.615 0 250 0 L 50 0 C 22.385 0 0 22.385 0 50 L 0 250 C 0 277.61 22.385 300 50 300 Z M 260 250 C 260 255.52 255.52 260 250 260 L 140 260 L 140 140 L 260 140 L 260 250 Z M 250 40 C 255.52 40 260 44.475 260 50 L 260 100 L 140 100 L 140 40 L 250 40 Z M 40 50 C 40 44.475 44.475 40 50 40 L 100 40 L 100 100 L 40 100 L 40 50 Z M 40 140 L 100 140 L 100 260 L 50 260 C 44.475 260 40 255.52 40 250 L 40 140 Z" style="fill: rgb(0, 0, 0);"/>
+  <rect x="13258.153" y="1025406.2" width="59" height="183.18" style="fill: rgb(4, 106, 56); stroke: rgb(4, 106, 56); paint-order: fill; fill-rule: nonzero;" transform="matrix(1, 0, 0, 1, -13217.686522, -1025350.062413)"/>
+  <rect x="26785.87" y="1030424.608" width="119.2" height="184.076" style="fill: rgb(218, 41, 28); stroke: rgb(218, 41, 28);" transform="matrix(1, 0, 0, 1, -26645.371095, -1030363.500034)"/>
+</svg>

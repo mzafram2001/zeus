@@ -63,7 +63,8 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-color);;
+    background-color: var(--secondary-color);
+    ;
 }
 
 ::-webkit-scrollbar-thumb:hover {
