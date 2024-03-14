@@ -48,11 +48,35 @@
     position: relative;
     color: var(--pyrite-color);
     margin-bottom: 1.5rem;
-    transition: .3s;
+    transition: fill 0.3s ease-out;
 }
 
-.nav_link:hover {
+.nav_link .nav_name {
+    transition: color 0.3s ease-out;
+}
+
+.nav_link:hover .nav_name {
     color: var(--primary-color);
+}
+
+.nav_link:hover .icon-svg path{
+    color: var(--primary-color);
+    fill: var(--primary-color) !important;
+}
+
+.nav_link:hover .icon-svg circle{
+    color: var(--primary-color);
+    fill: var(--primary-color) !important;
+}
+
+.icon-svg path {
+    fill: var(--pyrite-color) !important;
+    transition: fill 0.3s ease-out;
+}
+
+.icon-svg circle {
+    fill: var(--pyrite-color) !important;
+    transition: fill 0.3s ease-out;
 }
 
 .nav_icon {
@@ -69,6 +93,16 @@
 
 .active {
     color: var(--primary-color);
+}
+
+.active .icon-svg path {
+    color: var(--primary-color);
+    fill: var(--primary-color) !important;
+}
+
+.active .icon-svg circle {
+    color: var(--primary-color);
+    fill: var(--primary-color) !important;
 }
 
 .active::before {

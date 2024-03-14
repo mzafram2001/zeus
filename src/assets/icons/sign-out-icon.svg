@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(4.6875, 0, 0, 4.6875, -84.374992, -84.375)">
+    <path d="M40,82H70A12,12,0,0,0,82,70V30A12,12,0,0,0,70,18H40A12,12,0,0,0,28,30v8h8V30a4,4,0,0,1,4-4H70a4,4,0,0,1,4,4V70a4,4,0,0,1-4,4H40a4,4,0,0,1-4-4V62H28v8A12,12,0,0,0,40,82Z" style="fill: rgb(0, 0, 0);"/>
+    <path d="M18,54H52.34l-8,8L50,67.66,64.83,52.83a4,4,0,0,0,0-5.66L50,32.34,44.34,38l8,8H18Z" style="fill: rgb(0, 0, 0);"/>
+  </g>
+</svg>
