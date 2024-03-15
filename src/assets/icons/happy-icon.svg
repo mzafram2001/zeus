@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <rect x="209.37" y="54.282" width="31.018" height="194.345" style="stroke: rgb(253, 221, 202); fill: rgb(253, 221, 202);"/>
+  <rect x="239.418" y="75.848" width="25.202" height="143.457" style="stroke: rgb(253, 221, 202); fill: rgb(253, 221, 202);"/>
+  <rect x="68.821" y="36.349" width="64.459" height="227.787" style="stroke: rgb(253, 221, 202); fill: rgb(253, 221, 202);"/>
+  <rect x="125.04" y="26.656" width="54.281" height="245.234" style="fill: rgb(253, 221, 202); stroke: rgb(253, 221, 202);"/>
+  <rect x="173.506" y="34.895" width="43.134" height="234.087" style="stroke: rgb(253, 221, 202); fill: rgb(253, 221, 202);"/>
+  <rect x="41.351" y="75.622" width="39.257" height="165.266" style="stroke: rgb(253, 221, 202); fill: rgb(253, 221, 202);" transform="matrix(1, 0, 0.001465, 1, -6.206661, -7.770618)"/>
+  <g transform="matrix(4.6875, 0, 0, 4.6875, -84.375, -84.375)">
+    <circle cx="62" cy="46" r="4" style="fill: rgb(0, 0, 0);"/>
+    <g>
+      <circle cx="38" cy="46" r="4" style="fill: rgb(0, 0, 0);"/>
+      <path d="M42,57.59A8.28,8.28,0,0,0,49.28,66,8,8,0,0,0,58,58V56a2,2,0,0,0-2-2H44a2,2,0,0,0-2,2Z" style="fill: rgb(0, 0, 0);"/>
+      <path d="M50,82A32,32,0,1,0,18,50,32,32,0,0,0,50,82Zm0-56A24,24,0,1,1,26,50,24,24,0,0,1,50,26Z" style="fill: rgb(0, 0, 0);"/>
+    </g>
+  </g>
+</svg>

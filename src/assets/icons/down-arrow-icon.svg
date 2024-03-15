@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <rect x="33.441" y="97.416" width="58.643" height="104.199" style="stroke: rgb(220, 53, 69); fill: rgb(220, 53, 69);"/>
+  <rect x="97.415" y="34.411" width="103.231" height="49.435" style="fill: rgb(220, 53, 69); stroke: rgb(220, 53, 69);"/>
+  <rect x="77.06" y="64.943" width="151.696" height="179.321" style="fill: rgb(220, 53, 69); stroke: rgb(220, 53, 69);"/>
+  <rect x="214.217" y="102.746" width="53.796" height="95.476" style="stroke: rgb(220, 53, 69); fill: rgb(220, 53, 69);"/>
+  <rect x="107.593" y="232.148" width="84.33" height="38.772" style="fill: rgb(220, 53, 69); stroke: rgb(220, 53, 69);"/>
+  <g transform="matrix(0, 4.687963, -4.687963, 0, 100.000008, 100.000023)" style="transform-origin: 50px 50px;">
+    <path d="M50.83,35.17l-5.66,5.66L50.34,46H36v8H50.34l-5.17,5.17,5.66,5.66,12-12a4,4,0,0,0,0-5.66Z" style="fill: rgb(0, 0, 0);"/>
+    <path d="M59.66,22a13.66,13.66,0,0,0-19.31,0L22,40.34a13.66,13.66,0,0,0,0,19.31L40.34,78a13.66,13.66,0,0,0,19.31,0L78,59.66a13.66,13.66,0,0,0,0-19.31ZM72.34,54,54,72.34a5.66,5.66,0,0,1-8,0L27.66,54a5.66,5.66,0,0,1,0-8L46,27.66a5.66,5.66,0,0,1,8,0L72.34,46a5.66,5.66,0,0,1,0,8Z" style="fill: rgb(0, 0, 0);"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <rect x="101.293" y="214.701" width="104.684" height="56.22" style="stroke: rgb(137, 214, 134); fill: rgb(137, 214, 134);"/>
+  <rect x="54.766" y="168.659" width="191.923" height="55.736" style="fill: rgb(137, 214, 134); stroke: rgb(137, 214, 134);"/>
+  <rect x="22.779" y="107.108" width="247.658" height="77.545" style="stroke: rgb(137, 214, 134); fill: rgb(137, 214, 134);"/>
+  <rect x="23.748" y="76.09" width="204.523" height="63.974" style="fill: rgb(137, 214, 134); stroke: rgb(137, 214, 134);"/>
+  <rect x="27.14" y="42.165" width="174.475" height="37.318" style="fill: rgb(137, 214, 134); stroke: rgb(137, 214, 134);"/>
+  <rect x="26.171" y="30.775" width="174.475" height="15.509" style="fill: rgb(137, 214, 134); stroke: rgb(137, 214, 134);"/>
+  <g transform="matrix(4.838703, 0, 0, 4.838703, -91.935364, -91.953041)">
+    <circle cx="38" cy="38" r="4" transform="translate(-15.74 38) rotate(-45)" style="fill: rgb(0, 0, 0);"/>
+    <path d="M81,51a15.14,15.14,0,0,0-4.46-10.78L57.66,21.34,55.31,19H32A13,13,0,0,0,19,32V55.31l2.34,2.34L40.22,76.54a15.24,15.24,0,0,0,21.56,0L76.54,61.78A15.14,15.14,0,0,0,81,51ZM70.88,56.12,56.12,70.88a7.24,7.24,0,0,1-10.24,0L27,52V32a5,5,0,0,1,5-5H52L70.88,45.88a7.24,7.24,0,0,1,0,10.24Z" style="fill: rgb(0, 0, 0);"/>
+  </g>
+</svg>

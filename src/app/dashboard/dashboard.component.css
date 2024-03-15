@@ -42,6 +42,15 @@
     margin-bottom: 1rem;
 }
 
+table {
+    text-align: center;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    text-align: left;
+}
+
 @media screen and (max-width: 592px) {
     .table-responsive {
         margin-bottom: 1rem;
