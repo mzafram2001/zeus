@@ -18,7 +18,7 @@
 </div>
 <br>
 
-![Banner](https://i.ibb.co/Hrg2Cbp/zeus-ex1.png)
+![Banner](https://i.ibb.co/s67wF7x/example1.png)
 
 ## ⚡ Color palette features / Características de la paleta de colores
 
@@ -68,7 +68,7 @@
 </div>
 <br>
 
-![Banner](https://i.ibb.co/j8hm5yQ/zeus-ex2.png)
+![Banner](https://i.ibb.co/5nTcG8Y/example2.png)
 
 ## ⚡ Adaptability / Adaptabilidad
 
@@ -81,7 +81,7 @@
 </div>
 <br>
 
-![Banner](https://i.ibb.co/YBkxVyk/zeus-ex3.png)
+![Banner](https://i.ibb.co/SK7Dy6y/example3.png)
 
 ## ⚡ Roadmap / Hoja de ruta
 
