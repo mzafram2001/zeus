@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <rect x="33.441" y="70.759" width="42.165" height="201.131" style="fill: rgb(43, 213, 142); stroke: rgb(43, 213, 142);"/>
+  <rect x="68.821" y="32.472" width="164.297" height="235.541" style="fill: rgb(43, 213, 142); stroke: rgb(43, 213, 142);"/>
+  <rect x="222.94" y="67.851" width="40.711" height="168.174" style="fill: rgb(43, 213, 142); stroke: rgb(43, 213, 142);"/>
+  <g transform="matrix(4.688665, 0, 0, 4.688665, -84.325546, -84.479195)">
+    <path d="M50,18A32,32,0,0,0,21.21,64l-2.7,7.21a8,8,0,0,0,10.3,10.3L36,78.79A32,32,0,1,0,50,18Zm0,56a23.88,23.88,0,0,1-13.29-4L26,74l4-10.71A24,24,0,1,1,50,74Z" style="fill: rgb(0, 0, 0);"/>
+    <polygon points="54 37 46 37 46 46 37 46 37 54 46 54 46 63 54 63 54 54 63 54 63 46 54 46 54 37" style="fill: rgb(0, 0, 0);"/>
+  </g>
+</svg>
